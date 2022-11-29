@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/bradtraversy/php-crash#readme",
   "devDependencies": {
-    "@prettier/plugin-php": "^0.18.3",
-    "prettier": "^2.6.0"
+    "@prettier/plugin-php": "^0.18.9",
+    "prettier": "^2.8.0"
   }
 }

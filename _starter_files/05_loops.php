@@ -11,6 +11,10 @@
   }
 */
 
+// for ($i = 0; $i < 10; $i++) { 
+//   echo $i . '<br>';
+// }
+
 
 /* ------------ While Loop ------------ */
 
@@ -21,8 +25,17 @@
   }
 */
 
+// $x = 1;
+
+// while($x <= 10) {
+//   echo $x . '<br>';
+//   $x++;
+// };
+
+
 
 /* ---------- Do While Loop --------- */
+
 
 /*
 ** Do While Loop Syntax
@@ -32,10 +45,25 @@
 
 do...while loop will always execute the block of code once, even if the condition is false.
 */
+$x = 19 ;
 
+// do {
+//   echo 'Number: ' . $x . '<br>';
+//   $x++;
+// } while ($x <= 10);
 
 
 /* ---------- Foreach Loop ---------- */
+
+$posts = [ 'First Post', 'Second Post', 'Third Post' ];
+
+// for( $i = 0; $i < count($posts); $i++){
+//   echo $posts[$i] . '<br>';
+// }
+
+foreach($posts as $post) {
+  echo $post . '<br>';
+}
 
 /*
 ** Foreach Loop Syntax

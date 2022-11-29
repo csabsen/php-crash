@@ -1,4 +1,12 @@
 <?php
+
+function registerUser() {
+  echo 'User REGISTERED';
+}
+
+registerUser();
+
+
 /* ------------ Functions ----------- */
 
 /*

@@ -1,5 +1,6 @@
 <?php
 
+
 /* ----- Variables & Data Types ----- */
 
 /* --------- PHP Data Types --------- */
@@ -22,3 +23,30 @@
 - Variables can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 - Variables are case-sensitive ($name and $NAME are two different variables)
 */
+
+$name = 'Brad';
+$age = 40;
+$has_kids = true;
+$cash_on_hands = 20.75;
+
+
+// var_dump($cash_on_hands);
+
+// echo $name . ' is ' . $age . ' years old';
+// echo "$name is $age years old";
+
+// php will recognize the datatype and allow you to use the correct operator
+
+$x =  '5' + '5';
+// will be an integer
+
+var_dump($x);
+
+echo 10 - 5;
+
+// create constant HOSTNAME and set it to localhost
+define('HOSTNAME', 'localhost');
+
+echo HOSTNAME;
+
+
